@@ -1,16 +1,20 @@
 import './App.css';
+import Header from './components/Header';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+import Archiving  from './pages/Archiving'
 import Contact from './pages/Contact';
-import Header from './components/Header';
+//import Footer from './pages/Footer'
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <Home />
-{/*       <Projects />
-      <Contact /> */}
+      <Archiving />
+      <Projects />
+      <Contact /> 
+      {/* <Footer/> */}
     </div>
   );
 }

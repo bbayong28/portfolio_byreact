@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Archiving  from './pages/Archiving'
 import Contact from './pages/Contact';
-//import Footer from './pages/Footer'
+import Footer from './pages/Footer'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Archiving />
       <Projects />
       <Contact /> 
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }

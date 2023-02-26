@@ -11,9 +11,10 @@ const Home = () => {
             <span>Web Developer</span>
             <h2>SHIN HWAYEONG</h2>
           <p>
-            안녕하세요.<br/>
-            프론트엔드 개발자 신화영 입니다.<br/>
-            꼼꼼하고 뭐든 열심히는게 제 장점입니다.
+            안녕하세요.<br />
+            프론트엔트 개발자로 성장하고 있는 신화영 입니다.<br/>
+            꾸준한 배움과 노력으로 항상 발전하는 개발자가 되고싶습니다.<br />
+            
             </p>
             <div className='more'>
               <a>

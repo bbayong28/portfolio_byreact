@@ -5,6 +5,7 @@ import Projects from './pages/Projects';
 import Archiving  from './pages/Archiving'
 import Contact from './pages/Contact';
 import Footer from './pages/Footer'
+import Totop from './components/Totop';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Archiving />
       <Projects />
       <Contact /> 
-      <Footer/>
+      <Footer />
+      <Totop/>
     </div>
   );
 }

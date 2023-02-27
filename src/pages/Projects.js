@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { btns, projects } from '../data/data'
-import { motion, AnimatePresence } from 'framer-motion'
+//import { motion, AnimatePresence } from 'framer-motion'
 
 const Projects = () => {
 
@@ -22,14 +22,19 @@ const Projects = () => {
   //console.log(filterImages)
 
   return (
-    <div className='Projects'>
+    <div className='Projects' id="3">
       <div className="container center">
           <h2>My Projects</h2>
           <div className='flex pmenu'>
             {
               btns.map((btn) => {
                 return (
-                  <button key={btn.id} value={btn.value} onClick={handleClick}>
+                  <button
+                    key={btn.id}
+                    value={btn.value}
+                    onClick={handleClick}
+                    className='tabmenu'
+                  >
                     {btn.name}
                   </button>
                   );
@@ -37,27 +42,22 @@ const Projects = () => {
               )
             }
           </div>
-          <AnimatePresence>
-            <motion.div className='pimg'>
-              {
-                filterImages &&
-                  filterImages.map((filterImage) => {
-                    return (
-                      <motion.div
-                        layout
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0, transition: { duration: 0.3 } }}
-                        key={filterImage.id}
-                      >
-                        <motion.img src={filterImage.image} alt="" />
-                      </motion.div>
-                    );
-                  }
-                )
-              }
-            </motion.div>
-          </AnimatePresence>
+            <div className='multiple'>
+            {
+              filterImages &&
+                filterImages.map((filterImage) => {
+                  return (
+                    <div className="single" key={filterImage.id}>
+                      <div className="simg">
+                        <img src={process.env.PUBLIC_URL + "img/project" + filterImage.id + ".png"} alt={filterImage.id} />
+                      </div>
+                      <p>{filterImage.name}</p>
+                    </div>
+                  );
+                }
+              )
+            }
+        </div>
       </div>
     </div>
   )

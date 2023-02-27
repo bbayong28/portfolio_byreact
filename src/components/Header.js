@@ -1,25 +1,38 @@
 import React, { useState } from 'react'
-//import { Link } from 'react-router-dom'
-import { BiMenuAltRight } from "react-icons/bi";
+import { Link } from "react-scroll";
+import { HomeMenu } from '../data/data';
+import { useEffect } from 'react';
 
 const Header = () => {
 
   const [on, setOn] = useState('')
 
+
   return (
     <div className='Header'>
       <div className="container flex">
         <div className="logo">
-          <p>LOGO</p>
+          <img src={process.env.PUBLIC_URL + "/img/logo.png"} alt="" />
+          <p>hy's portfolio</p>
         </div>
         <nav>
-          <ul className={ `gnb ${on ? 'on' : ''}` }>
-            <li><a><i className='xi-home micons'></i>Home</a></li>
-            <li><a><i className='xi-documents micons'></i>Projects</a></li>
-            <li><a><i className='xi-mail micons'></i>Contact</a></li>
+          <ul className={`gnb ${on ? 'on' : ''}`}>
+            {
+              HomeMenu.map((menu, idx) => { 
+                return (
+                  <li key={menu.id}>
+                    <Link to={menu.id} spy={true} smooth={true} onClick={() => { setOn(''); }}>
+                      <i className={`${menu.icon} micons`}></i>
+                      { menu.title }                      
+                    </Link>
+                  </li>
+                )
+                
+              })
+            }
           </ul>
         </nav>  
-        <BiMenuAltRight className='mopen' onClick={() => { setOn(!on) }}/>      
+        <i className='xi-bars mopen' onClick={() => { setOn(!on) }}/>      
       </div>
     </div>
   )

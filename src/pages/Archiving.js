@@ -3,7 +3,7 @@ import { archiving } from '../data/data'
 
 const Archiving = () => {
   return (
-    <div className='Archiving'>
+    <div className='Archiving' id='2'>
       <div className="container center">
         <h2>Archiving</h2>
         <div className="inbox">

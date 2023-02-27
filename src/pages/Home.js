@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='Home'>
+    <div className='Home' id='1'>
       <div className="container flex">
           <div className="left">
             <img src={process.env.PUBLIC_URL + "/img/home_me.png"} alt="" />

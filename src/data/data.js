@@ -92,7 +92,7 @@ const projects = [
   },
   {
     id: 12,
-    name:'Hyudai(jquery)',
+    name:'Hyudai(react/jquery/js)',
     value: "Training",
   },
   {

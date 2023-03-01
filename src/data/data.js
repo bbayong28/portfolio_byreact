@@ -181,8 +181,8 @@ const projects = [
   {
     id: 20,
     name:'단위 변환기',
-    value: "React",
-    url:""
+    value: "React/Js",
+    url:"https://bbayong28.github.io/home/nmd_react_practice/"
   },
   {
     id: 21,

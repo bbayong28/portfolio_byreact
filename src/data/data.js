@@ -146,7 +146,7 @@ const projects = [
     id: 14,
     name:'번역기',
     value: "Training",
-    url:"https://bbayong28.github.io/etc/js/traslator/"
+    url:"https://bbayong28.github.io/etc/js/translator/"
   },
   {
     id: 15,

@@ -9,7 +9,7 @@ const Home = () => {
           </div>
           <div className='right'>
             <span>Web Developer</span>
-            <h2>SHIN HWAYEONG</h2>
+            <h3>SHIN HWAYEONG</h3>
             <p>
             안녕하세요.<br />
             프론트엔트 개발자로 성장하고 있는 신화영 입니다.<br/>

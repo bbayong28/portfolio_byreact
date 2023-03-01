@@ -1,5 +1,3 @@
-
-
 import { FaUser, FaCalendar, FaPhoneAlt,FaEnvelope } from "react-icons/fa";
 import { SiGithub, SiNaver } from "react-icons/si";
 
@@ -27,6 +25,39 @@ const HomeMenu = [
   },
 ];
 
+const skills = [
+  {
+    id: 1,
+  },
+  {
+    id: 2,
+  },
+  {
+    id: 3,
+  },
+  {
+    id: 4,
+  },
+  {
+    id: 5,
+  },
+  {
+    id: 6,
+  },
+  {
+    id: 7,
+  },
+  {
+    id: 8,
+  },
+  {
+    id: 9,
+  },
+  {
+    id: 10,
+  }
+]
+
 const btns = [
   { id: 1, name: "All", value: "All" },
   { id: 2, name: "React", value: "React" },
@@ -39,101 +70,125 @@ const projects = [
     id: 1,
     name:'megflix',
     value: "React",
+    url:""
   },
   {
     id: 2,
     name:'한국 미술관',
     value: "React",
+    url:"https://bbayong28.github.io/art_museum/index.html"
   },
   {
     id: 3,
     name:'카카오뱅크',
     value: "React",
+    url:"https://bbayong28.github.io/practice01_tr/"
   },
   {
     id: 4,
     name:'이메일 매니저',
     value: "React",
+    url:""
   },
   {
     id: 5,
     name:'잭슨카멜레온',
     value: "HTML/CSS/JS",
+    url:"https://bbayong28.github.io/originalmain/Jackson_tr/"
   },
   {
     id: 6,
     name:'한화',
-    value: "HTML/CSS/JS",
+    url:"https://bbayong28.github.io/originalmain/hanhwa_tr/"
   },
   {
     id: 7,
     name:'롯데리조트',
-    value: "HTML/CSS/JS",
+    url:"https://bbayong28.github.io/originalmain/lotte_resort/"
   },
   {
     id: 8,
     name:'마리떼',
     value: "HTML/CSS/JS",
+    url:"https://bbayong28.github.io/originalmain/marithe_francois_girbaud_tr/"
   },
   {
     id: 9,
     name: '메타퀘스트',
     value: "HTML/CSS/JS",
+    url:"https://bbayong28.github.io/originalmain/Meta_quest2_tr/"
   },
   {
     id: 10,
     name:'국사랑',
     value: "HTML/CSS/JS",
+    url:"https://bbayong28.github.io/originalmain/kooksarang_tr/"
   },
   {
     id: 11,
     name:'calculator',
-    value: "Training",
+    value: "React",
+    url:"https://bbayong28.github.io/calculator_r/index.html"
   },
   {
     id: 12,
-    name:'Hyudai(react/jquery/js)',
+    name:'Hyundai(react/jquery/js)',
     value: "Training",
+    url:"https://bbayong28.github.io/hd_web_js/"
   },
   {
     id: 13,
     name:'날씨어플',
     value: "Training",
+    url:"https://bbayong28.github.io/etc/js/weather/"
   },
   {
     id: 14,
     name:'번역기',
     value: "Training",
+    url:"https://bbayong28.github.io/etc/js/traslator/"
   },
   {
     id: 15,
     name:'플립게임',
     value: "Training",
+    url:"https://bbayong28.github.io/etc/js/flip_game/"
   },
   {
     id: 16,
     name:'배터리잔량',
     value: "Training",
+    url:"https://bbayong28.github.io/etc/js/battery/"
   },
   {
     id: 17,
     name:'할일 앱',
     value: "React",
+    url:""
   },
   {
     id: 18,
     name:'간단한 카운터',
     value: "React",
+    url:"https://bbayong28.github.io/simple_counter/"
   },
   {
     id: 19,
     name:'로그인',
     value: "React",
+    url:"https://bbayong28.github.io/login_page/"
   },
   {
     id: 20,
     name:'단위 변환기',
     value: "React",
+    url:""
+  },
+  {
+    id: 21,
+    name:'모멘텀_클론코딩',
+    value: "Training",
+    url:"https://bbayong28.github.io/etc/js/momentum/"
   },
 ];
 
@@ -166,20 +221,20 @@ const archiving = [
     name:'GitHub',
     icon: <SiGithub />,
     add: "github.com/bbayong28",
-    intro:"소스 코드 저장소 입니다.",
-    des1:"국비지원 학원에서의 프로젝트 코드",
-    des2:"혼자서 코딩 연습을 위해 만든 프로젝트 코드"
+    intro: "소스 코드 저장소 입니다.",
+    des1: "학원에서의 실습 프로젝트 코드",
+    des2: "혼자서 코딩 연습을 위해 만든 프로젝트 코드"
   },
   {
     id: 2,
     name: 'Blog',
     icon: <SiNaver />,
     add : 'blog.naver/ghkdud5795',
-    intro:"공부 및 지식 공유 목적의 블로그 입니다.",
-    des1:"공부하며 알게된 지식들 정리위한 기록",
-    des2:"지식 공유를 통해 다른사람에게 도움이 되기 위해"
+    intro: "공부 및 지식 공유 목적의 블로그 입니다.",
+    des1: "공부하며 알게된 지식들 정리위한 기록",
+    des2: "지식 공유를 통해 다른사람에게 도움이 되기 위해"
   }
 ];
 
 
-export { HomeMenu, btns, projects, contacts, archiving }
+export { HomeMenu, skills, btns, projects, contacts, archiving }

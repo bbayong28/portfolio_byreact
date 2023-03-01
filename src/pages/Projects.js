@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { btns, projects } from '../data/data'
 //import { motion, AnimatePresence } from 'framer-motion'
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
 
@@ -49,7 +50,9 @@ const Projects = () => {
                   return (
                     <div className="single" key={filterImage.id}>
                       <div className="simg">
-                        <img src={process.env.PUBLIC_URL + "img/project" + filterImage.id + ".png"} alt={filterImage.id} />
+                        <Link to={filterImage?.url} target='_blank'>
+                          <img src={process.env.PUBLIC_URL + "img/project" + filterImage.id + ".png"} alt={filterImage.id} />
+                        </Link>                          
                       </div>
                       <p>{filterImage.name}</p>
                     </div>

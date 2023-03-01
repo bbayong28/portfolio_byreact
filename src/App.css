@@ -16,6 +16,16 @@ body{
   justify-content: space-between;
   align-items: center;
 }
+
+h2 {
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  border-bottom: 4px solid #665ad4;
+  padding-bottom: 15px;
+}
+
 .Header{
   position: fixed;
   background: #fff;
@@ -58,7 +68,7 @@ body{
   display: none;
 }
 
-.Header .container .mopen{
+.Header .container .mopen {
   display: none;
   font-size: 21px;
 }
@@ -95,7 +105,7 @@ body{
   color: #808080;
 }
 
-.Home .container .right h2{
+.Home .container .right h3{
   font-size: 55px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -121,6 +131,7 @@ body{
   padding: 8px 10px;
 }
 
+.Skill,
 .Archiving,
 .Projects,
 .Contact{
@@ -131,21 +142,7 @@ body{
   background: #f9f9f9;
 }
 
-.Archiving h2,
-.Contact h2,
-.Projects h2{
-  display: inline-block;
-  font-size: 35px;
-  font-weight: 700;
-  margin-bottom: 50px;
-  border-bottom: 4px solid #665ad4;
-  padding-bottom: 15px;
-}
 
-
-.Archiving h2::after{
-  width: 180px;
-}
 
 .Archiving .container .inbox{
   display: flex;
@@ -199,6 +196,22 @@ body{
   margin-bottom: 15px;
 }
 
+.Skill .container .outbox ul{
+  gap: 10px;
+}
+
+.Skill .container .outbox ul li{
+  max-width: 75px;
+  max-height: 75px;
+  border: 3px solid #665ad4;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+.Projects{
+  background: #f9f9f9;
+}
+
 .Projects .container .pmenu{
   font-size: 20px;
   justify-content: flex-start;
@@ -250,7 +263,6 @@ body{
 
 .Contact{
   padding: 100px 0 50px 0;
-  background: #f9f9f9;
 }
 
 
@@ -344,8 +356,9 @@ body{
   line-height: 1.3;
 }
 .Footer{
-  padding: 20px 0;
+  padding: 15px 0;
   color: #5d5d5d;
+  border-top: 1px solid #999;
 }
 
 .Footer .container .right span{
@@ -367,6 +380,7 @@ body{
   align-items: center;
   border-radius: 50px;
   cursor: pointer;
+  z-index: 20;
 }
 
 .Totop i{
@@ -375,14 +389,6 @@ body{
 }
 
 
-
-
-/* 
-.Footer{
-  box-shadow: 0 -2px 3px #cccccccc;
-  padding: 10px 20px;
-}
- */
 @media (max-width:1180px) {
 
   .Header .container .gnb>li>a:hover{
@@ -446,9 +452,21 @@ body{
   .Archiving .container .inbox>div {
     width: 65%;
   }
+  .Skill .container .outbox ul{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
 }
 @media (max-width:768px){
+
+  .center {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
 
   .Header .container {
     line-height: 80px;
@@ -460,9 +478,7 @@ body{
     top: 80px;
     left: -100%;
     background: rgba(0, 0, 0, 0.9);
-    background: #ffffff;
     color: #ffffff;
-    color: #5d5d5d;
     width: calc(100% - 120px);
     height: 100vh; 
     flex-direction: column;
@@ -493,8 +509,8 @@ body{
   }
 
   .Header .container .gnb>li>a:hover {
-    color: #a88ff4;
-  }
+    color: #665ad4;
+  } 
 
   .Home .container {
     display: grid;
@@ -516,7 +532,7 @@ body{
     font-size: 18px;
   }
 
-  .Home .container .right h2 {
+  .Home .container .right h3 {
     font-size: 35px;
   }
 
@@ -530,17 +546,8 @@ body{
   .Home .container .right .more{
     margin: 0 auto;
   }
-  .Archiving .container.center,
-  .Projects .container.center,
-  .Contact .container.center{
-    text-align: center;
-  }
-  .Archiving h2,
-  .Projects h2,
-  .Contact h2 {
-    font-size: 30px;
-    margin-bottom: 50px;
-  }
+
+
 
   .Projects .container .pmenu {
     font-size: 18px;
@@ -573,29 +580,14 @@ body{
   .Contact .container .shadow form textarea {
     width: 80%;
   }
-  .Contact .container .shadow form textarea{
-    margin-bottom: 25px;
-  }
 
   .Totop {
-    position: fixed;
     bottom: 60px;
     right: 15px;
     width: 40px;
     height: 40px;
-    background: #665ad4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    cursor: pointer;
-    z-index: 20;
   }
 
-  .Totop i {
-    font-size: 20px;
-    color: #fff;
-  }
 }
 @media (max-width:680px){
   .Archiving .container .inbox>div {
@@ -629,7 +621,7 @@ body{
   }
 }
 
-@media (max-width:540px) {
+@media (max-width:550px) {
   .Archiving .container .inbox>div {
     padding: 20px 0;
     width: 100%;
@@ -696,7 +688,7 @@ body{
     font-size: 15px;
   }
 
-  .Home .container .right h2 {
+  .Home .container .right h3{
     font-size: 30px;
   }
 

@@ -1,5 +1,7 @@
 import React from 'react'
 import { archiving } from '../data/data'
+import { Link } from 'react-router-dom'
+
 
 const Archiving = () => {
   return (
@@ -17,7 +19,7 @@ const Archiving = () => {
                     </span>
                     {archiving.name}
                   </h3>
-                  <a className='add' href={archiving.add}>{archiving.add}</a>
+                  <Link to={archiving.add} target='_blank' className='add'>{archiving.add}</Link>
                   <p>{archiving.intro}</p>
                   <li>{archiving.des1}</li>
                   <li>{archiving.des2}</li>

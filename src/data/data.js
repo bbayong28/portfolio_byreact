@@ -76,7 +76,7 @@ const projects = [
     id: 2,
     name:'한국 미술관',
     value: "React",
-    url:"https://bbayong28.github.io/art_museum/index.html"
+    url:"https://bbayong28.github.io/art_museum/"
   },
   {
     id: 3,
@@ -98,12 +98,14 @@ const projects = [
   },
   {
     id: 6,
-    name:'한화',
+    name: '한화',
+    value: "HTML/CSS/JS",
     url:"https://bbayong28.github.io/originalmain/hanhwa_tr/"
   },
   {
     id: 7,
-    name:'롯데리조트',
+    name: '롯데리조트',
+    value: "HTML/CSS/JS",
     url:"https://bbayong28.github.io/originalmain/lotte_resort/"
   },
   {
@@ -134,31 +136,31 @@ const projects = [
     id: 12,
     name:'Hyundai(react/jquery/js)',
     value: "Training",
-    url:"https://bbayong28.github.io/hd_web_js/"
+    url:"https://bbayong28.github.io/hd_web_jquery/"
   },
-  {
+    {
     id: 13,
-    name:'날씨어플',
-    value: "Training",
-    url:"https://bbayong28.github.io/etc/js/weather/"
+    name: '숫자 맞추기 게임',
+    value: "HTML/CSS/JS",
+    url:"https://bbayong28.github.io/remove/guess_number/"
   },
   {
     id: 14,
-    name:'번역기',
+    name:'모멘텀_클론코딩',
     value: "Training",
-    url:"https://bbayong28.github.io/etc/js/translator/"
+    url:"https://bbayong28.github.io/remove/momentum/"
   },
   {
     id: 15,
-    name:'플립게임',
-    value: "Training",
-    url:"https://bbayong28.github.io/etc/js/flip_game/"
+    name:'단위 변환기',
+    value: "React/Js",
+    url:"https://bbayong28.github.io/home/nmd_react_practice/"
   },
   {
     id: 16,
-    name:'배터리잔량',
-    value: "Training",
-    url:"https://bbayong28.github.io/etc/js/battery/"
+    name:'간단한 카운터',
+    value: "React",
+    url:"https://bbayong28.github.io/simple_counter/"
   },
   {
     id: 17,
@@ -166,11 +168,12 @@ const projects = [
     value: "React",
     url:""
   },
+
   {
     id: 18,
-    name:'간단한 카운터',
-    value: "React",
-    url:"https://bbayong28.github.io/simple_counter/"
+    name:'배터리잔량',
+    value: "Training",
+    url:"https://bbayong28.github.io/etc/js/battery/"
   },
   {
     id: 19,
@@ -180,15 +183,21 @@ const projects = [
   },
   {
     id: 20,
-    name:'단위 변환기',
-    value: "React/Js",
-    url:"https://bbayong28.github.io/home/nmd_react_practice/"
+    name:'플립게임',
+    value: "Training",
+    url:"https://bbayong28.github.io/etc/js/flip_game/"
   },
   {
     id: 21,
-    name:'모멘텀_클론코딩',
+    name:'번역기',
     value: "Training",
-    url:"https://bbayong28.github.io/etc/js/momentum/"
+    url:"https://bbayong28.github.io/remove/translator/"
+  },
+  {
+    id: 22,
+    name:'날씨어플',
+    value: "Training",
+    url:"https://bbayong28.github.io/etc/js/weather/"
   },
 ];
 
@@ -220,7 +229,7 @@ const archiving = [
     id: 1,
     name:'GitHub',
     icon: <SiGithub />,
-    add: "github.com/bbayong28",
+    add: "https://github.com/bbayong28",
     intro: "소스 코드 저장소 입니다.",
     des1: "학원에서의 실습 프로젝트 코드",
     des2: "혼자서 코딩 연습을 위해 만든 프로젝트 코드"
@@ -229,7 +238,7 @@ const archiving = [
     id: 2,
     name: 'Blog',
     icon: <SiNaver />,
-    add : 'blog.naver/ghkdud5795',
+    add : 'https://blog.naver.com/ghkdud5795',
     intro: "공부 및 지식 공유 목적의 블로그 입니다.",
     des1: "공부하며 알게된 지식들 정리위한 기록",
     des2: "지식 공유를 통해 다른사람에게 도움이 되기 위해"

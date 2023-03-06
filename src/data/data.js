@@ -86,89 +86,88 @@ const projects = [
   },
   {
     id: 4,
-    name:'이메일 매니저',
+    name:'diary',
     value: "React",
-    url:""
+    url:"https://bbayong28.github.io/diary/"
   },
   {
     id: 5,
+    name:'이메일 매니저',
+    value: "React",
+    url:"https://bbayong28.github.io/contact_step01/"
+  },
+  {
+    id: 6,
     name:'잭슨카멜레온',
     value: "HTML/CSS/JS",
     url:"https://bbayong28.github.io/originalmain/Jackson_tr/"
   },
   {
-    id: 6,
+    id: 7,
     name: '한화',
     value: "HTML/CSS/JS",
     url:"https://bbayong28.github.io/originalmain/hanhwa_tr/"
   },
   {
-    id: 7,
+    id: 8,
     name: '롯데리조트',
     value: "HTML/CSS/JS",
     url:"https://bbayong28.github.io/originalmain/lotte_resort/"
   },
   {
-    id: 8,
+    id: 9,
     name:'마리떼',
     value: "HTML/CSS/JS",
     url:"https://bbayong28.github.io/originalmain/marithe_francois_girbaud_tr/"
   },
   {
-    id: 9,
+    id: 10,
     name: '메타퀘스트',
     value: "HTML/CSS/JS",
     url:"https://bbayong28.github.io/originalmain/Meta_quest2_tr/"
   },
   {
-    id: 10,
+    id: 11,
     name:'국사랑',
     value: "HTML/CSS/JS",
     url:"https://bbayong28.github.io/originalmain/kooksarang_tr/"
   },
   {
-    id: 11,
+    id: 12,
     name:'calculator',
     value: "React",
     url:"https://bbayong28.github.io/calculator_r/index.html"
   },
   {
-    id: 12,
+    id: 13,
     name:'Hyundai(react/jquery/js)',
     value: "Training",
     url:"https://bbayong28.github.io/hd_web_jquery/"
   },
     {
-    id: 13,
+    id: 14,
     name: '숫자 맞추기 게임',
     value: "HTML/CSS/JS",
     url:"https://bbayong28.github.io/remove/guess_number/"
   },
   {
-    id: 14,
+    id: 15,
     name:'모멘텀_클론코딩',
     value: "Training",
     url:"https://bbayong28.github.io/remove/momentum/"
   },
   {
-    id: 15,
+    id: 16,
     name:'단위 변환기',
     value: "React/Js",
     url:"https://bbayong28.github.io/home/nmd_react_practice/"
   },
   {
-    id: 16,
+    id: 17,
     name:'간단한 카운터',
     value: "React",
     url:"https://bbayong28.github.io/simple_counter/"
   },
-  {
-    id: 17,
-    name:'할일 앱',
-    value: "React",
-    url:""
-  },
-
   {
     id: 18,
     name:'배터리잔량',
@@ -179,7 +178,7 @@ const projects = [
     id: 19,
     name:'로그인',
     value: "React",
-    url:"https://bbayong28.github.io/login_page/"
+    url:"https://bbayong28.github.io/login_page/index.html"
   },
   {
     id: 20,
@@ -198,7 +197,7 @@ const projects = [
     name:'날씨어플',
     value: "Training",
     url:"https://bbayong28.github.io/etc/js/weather/"
-  },
+  }
 ];
 
 const contacts = [

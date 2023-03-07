@@ -12,7 +12,7 @@ const Header = () => {
     <div className='Header'>
       <div className="container flex">
         <div className="logo">
-          <img src={process.env.PUBLIC_URL + "/img/logo.png"} alt="" />
+          <img src={process.env.PUBLIC_URL + "/assets/img/logo.png"} alt="" />
           <p>hy's portfolio</p>
         </div>
         <nav>

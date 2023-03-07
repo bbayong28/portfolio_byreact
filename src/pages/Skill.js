@@ -12,7 +12,7 @@ const Skill = () => {
               skills.map((skill) => { 
                 return (
                   <li className="skill" key={skill.id}>
-                    <img src={process.env.PUBLIC_URL + "img/skill" + skill.id + ".png"} alt="" />
+                    <img src={process.env.PUBLIC_URL + "/assets/img/skill" + skill.id + ".png"} alt="" />
                   </li>
                 )
                 

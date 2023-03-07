@@ -6,7 +6,7 @@ const Home = () => {
     <div className='Home' id='1'>
       <div className="container flex">
           <div className="left">
-            <img src={process.env.PUBLIC_URL + "/img/home_me.png"} alt="" />
+            <img src={process.env.PUBLIC_URL + "/assets/img/home_me.png"} alt="" />
           </div>
           <div className='right'>
             <span>Web Developer</span>

@@ -51,7 +51,7 @@ const Projects = () => {
                     <div className="single" key={filterImage.id}>
                       <div className="simg">
                         <Link to={filterImage?.url} target='_blank'>
-                          <img src={process.env.PUBLIC_URL + "img/project" + filterImage.id + ".png"} alt={filterImage.id} />
+                          <img src={process.env.PUBLIC_URL + "/assets/img/project" + filterImage.id + ".png"} alt={filterImage.id} />
                         </Link>                          
                       </div>
                       <p>{filterImage.name}</p>

@@ -18,11 +18,8 @@ const Home = () => {
             </p>
             <div className='more'>
               <button>
-                프로젝트 보러가기<i className='xi-long-arrow-down'></i>
-              </button>
-              <button>
                 <Link to='https://www.notion.so/e26517f3b85e433f85beb771267ff7f3' target='__blank'>
-                  이력서 보러가기
+                  이력서 보러가기 <i className='xi-mouse-pointer'></i>
                 </Link>
               </button>
             </div>

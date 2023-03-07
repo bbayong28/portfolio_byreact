@@ -119,10 +119,7 @@ h2 {
 }
 
 .Home .container .more{
-  display: flex;
-  gap: 20px;
-  text-align: center;
-  margin: 0 auto;
+  text-align: left;
 }
 
 .Home .container .more button{
@@ -549,12 +546,11 @@ h2 {
   .Home .container .right p {
     font-size: 17px;
     line-height: 1.3;
-
     margin-bottom: 25px;
   }
-  
-  .Home .container .right .more{
-    justify-content: center;
+
+  .Home .container .more {
+    text-align: center;
   }
 
   .Projects .container .pmenu {
@@ -627,6 +623,13 @@ h2 {
 }
 
 @media (max-width:550px) {
+
+
+  .Home .container .more button {
+    padding: 7px 10px;
+    font-size: 13px;
+  }
+
   .Archiving .container .inbox>div {
     padding: 20px 0;
     width: 100%;

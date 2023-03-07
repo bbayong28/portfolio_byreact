@@ -13,24 +13,24 @@ const Totop = () => {
   }
 
   useEffect(() => {
-        const handleShowButton = () => {
-            if (window.scrollY > 400) {
-                setShowButton(true)
-            } else {
-                setShowButton(false)
-            }
-        }
-        //console.log(window.scrollY)
-        window.addEventListener("scroll", handleShowButton)
-        return () => {
-            window.removeEventListener("scroll", handleShowButton)
-        }
-    }, [])
+    const handleShowButton = () => {
+      if (window.scrollY > 400) {
+        setShowButton(true)
+      } else {
+        setShowButton(false)
+      }
+    }
+    //console.log(window.scrollY)
+    window.addEventListener("scroll", handleShowButton)
+    return () => {
+    window.removeEventListener("scroll", handleShowButton)
+    }
+  }, [])
 
   return (
     showButton && (
     <div className='Totop'onClick={totop}>
-        <i className='xi-arrow-top'></i> 
+      <i className='xi-arrow-top'></i> 
     </div>
     )
   )

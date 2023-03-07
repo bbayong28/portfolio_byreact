@@ -85,7 +85,7 @@ const projects = [
     id: 1,
     name:'megflix',
     value: "React",
-    url:""
+    url:"https://bbayong28.github.io/megflix/"
   },
   {
     id: 2,

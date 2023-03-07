@@ -33,33 +33,43 @@ const HomeMenu = [
 const skills = [
   {
     id: 1,
+    name:'React'
   },
   {
     id: 2,
+    name:'Sass'
   },
   {
     id: 3,
+    name:'styled-component'
   },
   {
     id: 4,
+    name:'HTML'
   },
   {
     id: 5,
+    name:'CSS'
   },
   {
     id: 6,
+    name:'JavaScript'
   },
   {
     id: 7,
+    name:'JQuery'
   },
   {
     id: 8,
+    name:'illustrator'
   },
   {
     id: 9,
+    name:'photoshop'
   },
   {
     id: 10,
+    name:'Figma'
   }
 ]
 

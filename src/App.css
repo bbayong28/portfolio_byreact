@@ -115,20 +115,32 @@ h2 {
   opacity: 0.8;
   font-size: 21px;
   line-height: 1.5;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .Home .container .more{
-  width: 180px;
+  display: flex;
+  gap: 20px;
   text-align: center;
-  border-radius: 20px;
-  font-size: 15px;
-  font-weight: 400;
-  border: 3px solid #665ad4;
+  margin: 0 auto;
+}
+
+.Home .container .more button{
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 10px;
   background: #665ad4;
-  color:#ffffff;
-  box-shadow: 0 0 3px #665ad4;
-  padding: 8px 10px;
+  color: #ffffff;
+  border: 1px solid #665ad4;
+  cursor: pointer;
+  font-size: 19px;
+}
+
+.Home .container .more button:hover {
+  background: #fff;
+  color: #665ad4;
+  border: 1px solid #665ad4;
 }
 
 .Skill,
@@ -141,7 +153,6 @@ h2 {
 .Archiving{
   background: #f9f9f9;
 }
-
 
 
 .Archiving .container .inbox{
@@ -488,7 +499,6 @@ h2 {
     z-index: 30;
   }
 
-
   .Header .container nav .gnb.on {
     left: 0;
   }
@@ -544,10 +554,8 @@ h2 {
   }
   
   .Home .container .right .more{
-    margin: 0 auto;
+    justify-content: center;
   }
-
-
 
   .Projects .container .pmenu {
     font-size: 18px;
@@ -560,12 +568,9 @@ h2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-
   .Projects .container .multiple .single .simg {
     height: 20vh;
   }
-
-
 
   .Contact .container .clist{
     flex-direction:row;

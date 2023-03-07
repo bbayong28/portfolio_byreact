@@ -15,11 +15,16 @@ const HomeMenu = [
   },
   {
     id: 3,
+    icon: 'xi-library-add',
+    title: 'Skill'
+  },
+  {
+    id: 4,
     icon: 'xi-documents',
     title: 'Projects'
   },
   {
-    id: 4,
+    id: 5,
     icon: 'xi-mail',
     title: 'Contact'
   },

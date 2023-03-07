@@ -3,7 +3,7 @@ import { skills } from '../data/data';
 
 const Skill = () => {
   return (
-    <div className='Skill'>
+    <div className='Skill' id='3'>
       <div className="container center">
         <h2>Skills</h2>
         <div className="outbox">

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -16,9 +17,14 @@ const Home = () => {
             꾸준한 배움과 노력으로 항상 발전하는 개발자가 되고싶습니다.<br />            
             </p>
             <div className='more'>
-              <a>
+              <button>
                 프로젝트 보러가기<i className='xi-long-arrow-down'></i>
-              </a>
+              </button>
+              <button>
+                <Link to='https://www.notion.so/e26517f3b85e433f85beb771267ff7f3' target='__blank'>
+                  이력서 보러가기
+                </Link>
+              </button>
             </div>
           </div>
         </div>

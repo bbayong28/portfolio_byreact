@@ -89,21 +89,21 @@ const projects = [
   },
   {
     id: 2,
+    name:'diary',
+    value: "React",
+    url:"https://bbayong28.github.io/diary/"
+  },
+  {
+    id: 3,
     name:'한국 미술관',
     value: "React",
     url:"https://bbayong28.github.io/art_museum/"
   },
   {
-    id: 3,
+    id: 4,
     name:'카카오뱅크',
     value: "React",
     url:"https://bbayong28.github.io/practice01_tr/"
-  },
-  {
-    id: 4,
-    name:'diary',
-    value: "React",
-    url:"https://bbayong28.github.io/diary/"
   },
   {
     id: 5,

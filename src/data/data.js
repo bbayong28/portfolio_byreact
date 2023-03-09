@@ -185,7 +185,7 @@ const projects = [
   },
   {
     id: 18,
-    name:'배터리잔량',
+    name:'PC_배터리잔량',
     value: "Training",
     url:"https://bbayong28.github.io/etc/js/battery/"
   },

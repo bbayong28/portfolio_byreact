@@ -157,7 +157,7 @@ const projects = [
     id: 13,
     name:'Hyundai(react/jquery/js)',
     value: "Training",
-    url:"https://bbayong28.github.io/hd_web_jquery/"
+    url:"https://bbayong28.github.io/hd_web_js/"
   },
     {
     id: 14,

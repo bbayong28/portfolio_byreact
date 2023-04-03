@@ -212,6 +212,12 @@ const projects = [
     name:'날씨어플',
     value: "Training",
     url:"https://bbayong28.github.io/etc/js/weather/"
+  },
+  {
+    id: 23,
+    name:'하단밝은안과',
+    value: "Training",
+    url:"https://bbayong28.github.io/remove/ophthalmic_hospital/"
   }
 ];
 
